@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset style="width:90%">
+            <legend style="text-align:center"><b>DADOS PESSOAIS</b></legend>
+            <br>
+            <label for="txtNome">Nome:</label><br>
+            <input id="txtNome" type="text" placeholder="Nome completo (sem abreviar)" maxlength="60" required style="width:95%"> 
+
+            <br><br>
+            <label for="txtEnd">Endereço</label><br>
+            <input id="txtEnd" type="text" placeholder="Rua, av., travessa, etc." required style="width:95%">
+
+            <br><br>
+            <label for="txtNro">Número</label><br>
+            <input type="number" min="1" max="9999" step="2" value="11" required style="width:50%">
+
+            <br><br>
+            <label for="txtPwd">Senha</label><br>
+            <input type="password" id="txtPwd" placeholder="De 8 a 20 caracteres" minlength="8" maxlength="20" required style="width:50%">
+
+            <br><br>
+            <label for="selVeiculo">Selecione o veículo:</label><br>
+            <select id="selVeiculo" style="width:50%">
+                <option>Carro</option>
+                <option>Moto</option>
+                <option>Barco</option>
+            </select>
+
+            <br><br>
+            <label for="txtEmail" >Email</label><br>
+            <input type="email" id="txtEmail" required style="width:50%">
+
+            <br><br>
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" id="sexMasc"><label for="sexMasc">Masculino</label>
+            <input type="radio" name="sexo" id="sexFem"><label for="sexFem">Feminino</label>
+
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            <br>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

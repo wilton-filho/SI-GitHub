@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin:70px;
+        }
+        /*Estado 1: link ainda não visitado/original (a:link)*/
+        /*Estado 4: o link já foi visitado (a:visited)*/
+        a:link, a:visited {
+            color: white;
+            background-color:black;
+            padding:55px 40px 20px 40px;
+            text-decoration: none;
+            background-image:url('face.png');
+            background-repeat:no-repeat;
+            background-size: 30px;
+            background-position: center 10px;
+        }
+        /*Estado 2: o usuario movimenta o cursor (a:hover)*/
+        a:hover {
+            background-color:pink;
+            color:black;
+        }
+        /*Estado 3: o link está sendo clicado/ativado (a:active)*/
+        a:active {
+            background-color:rgb(253, 152, 169);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <a href="http://www.google.com">Google</a>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">    
+    <title>Document</title>
+    <style>
+        * {
+            margin:0px;
+            font-family: 'Oswald', sans-serif;
+        }
+        header ul {
+            list-style: none; /* Remoção do bullet (bolinha) */
+            padding:0px; /*Remover o espaço inicial à esquerda*/
+            background-color: black;
+            text-align:center;
+            position:fixed;
+            top:0px;
+            left:0px;
+            width:100%;
+            height:85px;
+        }
+        header div {
+            text-align: center;
+            background-color:rgb(229, 229, 229);
+            padding:25px;
+            margin-top:85px;
+        }
+        header li {
+            display:inline-block; /*Colocar os itens da lista numa mesma linha*/
+        }
+        header a:link, header a:visited {
+            text-decoration: none;
+            background-color: black;
+            display:inline-block;
+            padding:10px 20px;
+            color:white;
+            background-repeat:no-repeat;
+            background-position: center 10px;
+            padding-top:45px;
+            border-bottom:5px solid black;
+        }
+        header .facebook {
+            background-image:url('img/faceBlack.png');
+        }
+        header .facebook:hover {
+            background-image:url('img/face.png');
+            border-bottom:5px solid lightblue;
+        }
+        header .twitter {
+            background-image:url('img/twitterBlack.png');
+        }
+        header .twitter:hover {
+            background-image:url('img/twitter.png');
+            border-bottom:5px solid yellow;
+        }
+        header .youtube {
+            background-image:url('img/youtubeBlack.png');
+        }
+        .youtube:hover {
+            background-image:url('img/youtube.png');
+            border-bottom:5px solid lightcoral;
+        }
+        header .maps {
+            background-image:url('img/mapsBlack.png');
+        }
+        header .maps:hover {
+            background-image:url('img/maps.png');
+            border-bottom:5px solid lightskyblue;
+        }
+        header .instagram {
+            background-image:url('img/instaBlack.png');
+        }
+        header .instagram:hover {
+            background-image:url('img/insta.png');
+            border-bottom:5px solid orange;
+        }
+        
+        header h1 {
+            color:darkred;
+        }
+        header h2{
+            font-size:20px;
+            padding-top:10px;
+        }
+        main h2 {
+            color: rgb(0, 81, 0);
+            margin: 15px 0px;
+        }
+        main section p {
+            margin:15px 0px;
+            line-height: 1.5em;
+        }
+        main section {
+            margin:30px 50px;
+        }
+        footer {
+            background-color:rgb(92, 0, 0);
+            padding:30px;
+        }
+        footer p {
+            color: white;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="" class="facebook">Facebook</a></li>
+                <li><a href="" class="twitter">Twitter</a></li>
+                <li><a href="" class="youtube">Youtube</a></li>
+                <li><a href="" class="maps">Google Maps</a></li>
+                <li><a href="" class="instagram">Instagram</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h1>Aprendendo HTML5 e CSS3</h1>
+            <h2>Minicurso 100% prático</h2>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Sistemas para Internet</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quas, laborum dignissimos eius quis eum impedit temporibus magni exercitationem atque nihil corrupti expedita perferendis iure tempore quisquam culpa corporis earum!
+            Quibusdam debitis unde adipisci ea deleniti fuga iusto laborum, temporibus sapiente dolor voluptate culpa. Nemo voluptas quam architecto error doloremque officia veniam aut, velit quaerat porro amet voluptatum deleniti atque.
+            Amet, deserunt voluptatem minima dolorem similique blanditiis provident! Labore quia harum, at aperiam distinctio, eius beatae commodi quisquam obcaecati dicta odio! Impedit quos architecto ullam. Ut accusantium eum dolorum molestiae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quas, laborum dignissimos eius quis eum impedit temporibus magni exercitationem atque nihil corrupti expedita perferendis iure tempore quisquam culpa corporis earum!
+            Quibusdam debitis unde adipisci ea deleniti fuga iusto laborum, temporibus sapiente dolor voluptate culpa. Nemo voluptas quam architecto error doloremque officia veniam aut, velit quaerat porro amet voluptatum deleniti atque.
+            Amet, deserunt voluptatem minima dolorem similique blanditiis provident! Labore quia harum, at aperiam distinctio, eius beatae commodi quisquam obcaecati dicta odio! Impedit quos architecto ullam. Ut accusantium eum dolorum molestiae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quas, laborum dignissimos eius quis eum impedit temporibus magni exercitationem atque nihil corrupti expedita perferendis iure tempore quisquam culpa corporis earum!
+            Quibusdam debitis unde adipisci ea deleniti fuga iusto laborum, temporibus sapiente dolor voluptate culpa. Nemo voluptas quam architecto error doloremque officia veniam aut, velit quaerat porro amet voluptatum deleniti atque.
+            Amet, deserunt voluptatem minima dolorem similique blanditiis provident! Labore quia harum, at aperiam distinctio, eius beatae commodi quisquam obcaecati dicta odio! Impedit quos architecto ullam. Ut accusantium eum dolorum molestiae?</p>
+        </section>
+
+        <section>
+            <h2>Introdução a Computação</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quas, laborum dignissimos eius quis eum impedit temporibus magni exercitationem atque nihil corrupti expedita perferendis iure tempore quisquam culpa corporis earum!
+            Quibusdam debitis unde adipisci ea deleniti fuga iusto laborum, temporibus sapiente dolor voluptate culpa. Nemo voluptas quam architecto error doloremque officia veniam aut, velit quaerat porro amet voluptatum deleniti atque.
+            Amet, deserunt voluptatem minima dolorem similique blanditiis provident! Labore quia harum, at aperiam distinctio, eius beatae commodi quisquam obcaecati dicta odio! Impedit quos architecto ullam. Ut accusantium eum dolorum molestiae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quas, laborum dignissimos eius quis eum impedit temporibus magni exercitationem atque nihil corrupti expedita perferendis iure tempore quisquam culpa corporis earum!
+            Quibusdam debitis unde adipisci ea deleniti fuga iusto laborum, temporibus sapiente dolor voluptate culpa. Nemo voluptas quam architecto error doloremque officia veniam aut, velit quaerat porro amet voluptatum deleniti atque.
+            Amet, deserunt voluptatem minima dolorem similique blanditiis provident! Labore quia harum, at aperiam distinctio, eius beatae commodi quisquam obcaecati dicta odio! Impedit quos architecto ullam. Ut accusantium eum dolorum molestiae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quas, laborum dignissimos eius quis eum impedit temporibus magni exercitationem atque nihil corrupti expedita perferendis iure tempore quisquam culpa corporis earum!
+            Quibusdam debitis unde adipisci ea deleniti fuga iusto laborum, temporibus sapiente dolor voluptate culpa. Nemo voluptas quam architecto error doloremque officia veniam aut, velit quaerat porro amet voluptatum deleniti atque.
+            Amet, deserunt voluptatem minima dolorem similique blanditiis provident! Labore quia harum, at aperiam distinctio, eius beatae commodi quisquam obcaecati dicta odio! Impedit quos architecto ullam. Ut accusantium eum dolorum molestiae?</p>
+        </section>
+
+        <section>
+            <h2>Matemática Discreta</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quas, laborum dignissimos eius quis eum impedit temporibus magni exercitationem atque nihil corrupti expedita perferendis iure tempore quisquam culpa corporis earum!
+            Quibusdam debitis unde adipisci ea deleniti fuga iusto laborum, temporibus sapiente dolor voluptate culpa. Nemo voluptas quam architecto error doloremque officia veniam aut, velit quaerat porro amet voluptatum deleniti atque.
+            Amet, deserunt voluptatem minima dolorem similique blanditiis provident! Labore quia harum, at aperiam distinctio, eius beatae commodi quisquam obcaecati dicta odio! Impedit quos architecto ullam. Ut accusantium eum dolorum molestiae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quas, laborum dignissimos eius quis eum impedit temporibus magni exercitationem atque nihil corrupti expedita perferendis iure tempore quisquam culpa corporis earum!
+            Quibusdam debitis unde adipisci ea deleniti fuga iusto laborum, temporibus sapiente dolor voluptate culpa. Nemo voluptas quam architecto error doloremque officia veniam aut, velit quaerat porro amet voluptatum deleniti atque.
+            Amet, deserunt voluptatem minima dolorem similique blanditiis provident! Labore quia harum, at aperiam distinctio, eius beatae commodi quisquam obcaecati dicta odio! Impedit quos architecto ullam. Ut accusantium eum dolorum molestiae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quas, laborum dignissimos eius quis eum impedit temporibus magni exercitationem atque nihil corrupti expedita perferendis iure tempore quisquam culpa corporis earum!
+            Quibusdam debitis unde adipisci ea deleniti fuga iusto laborum, temporibus sapiente dolor voluptate culpa. Nemo voluptas quam architecto error doloremque officia veniam aut, velit quaerat porro amet voluptatum deleniti atque.
+            Amet, deserunt voluptatem minima dolorem similique blanditiis provident! Labore quia harum, at aperiam distinctio, eius beatae commodi quisquam obcaecati dicta odio! Impedit quos architecto ullam. Ut accusantium eum dolorum molestiae?</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Desenvolvido por Wilton de Paula Filho</p>
+    </footer>
+</body>
+</html>

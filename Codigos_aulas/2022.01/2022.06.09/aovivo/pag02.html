@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            background-color: rgb(201, 201, 201);
+        }
+        .container {
+            width:1200px;
+            margin:auto;
+            border:3px solid black;
+            display:flex;
+            flex-direction: column;
+        }
+        div {
+            border:2px solid red;
+        }
+        .tecnologias div {
+            width:33.3%;
+        }
+        .carrinhoCompras div:nth-child(1){
+            width:33.3%;
+        }
+        .carrinhoCompras div:nth-child(2){
+            width:66.6%;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+        <section>
+            <div class="container tecnologias">
+                <div>HTML5</div>
+                <div>CSS3</div>
+                <div>JAVASCRIPT</div>
+            </div>
+        </section>
+        <section>
+            <div class="container carrinhoCompras">
+                <div>imagem</div>
+                <div>3 parágrafos</div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>

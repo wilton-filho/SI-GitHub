@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+.caixa1 {
+    background-color:brown;
+    width: 200px;
+    padding:10px;
+    border:5px solid black;
+    
+}
+.caixa2 {
+    background-color:lightgreen;
+    width:200px;
+}

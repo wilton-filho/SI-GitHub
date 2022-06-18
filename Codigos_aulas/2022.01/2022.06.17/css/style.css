@@ -68,9 +68,6 @@ main section > div {
 main section:nth-child(1) {
     background-color: rgb(237, 237, 237);
 }
-.container {
-    width:100%;
-}
 footer {
     padding:40px;
     background-color:black;

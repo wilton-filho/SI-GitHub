@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin:0px;
+    font-family: 'Oswald', sans-serif, arial, tahoma;
+}
+header img {
+    width:100%;
+}
+header ul {
+    list-style: none;
+    padding:0px;
+    background-color:black;
+    text-align: center;
+}
+header ul li {
+    display:inline-block;
+}
+header ul a:link, header ul a:visited {
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    padding: 15px 20px;
+}
+header ul a:hover {
+    background-color:white;
+    color:black;
+}
+header h1, header h2 {
+    text-align: center;
+    padding:5px;
+}
+header h1 {
+    font-size:24px;
+}
+header h2 {
+    font-size:16px;
+    color:red;
+}
+.tecnologias {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.tecnologias p {
+    font-size: 14px;
+    margin:15px 10px 35px 10px;
+}
+.tecnologias img {
+    width:70px;
+}
+.compras {
+    display: flex;
+    flex-direction: column;
+}
+main section > div {
+    padding:25px;
+}
+.tecnologias p, .compras p {
+    font-size: 14px;
+}
+.compras img {
+    width:250px;
+}
+.compras p {
+    text-align:justify;
+}
+main section:nth-child(1) {
+    background-color: rgb(237, 237, 237);
+}
+.container {
+    width:100%;
+}
+footer {
+    padding:40px;
+    background-color:black;
+}
+footer p {
+    color:white;
+    text-align: center;
+}
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    header img {
+        content: url('../img/topoTablet.jpg');
+    }
+    header ul {
+        text-align: right;
+    }
+    header h1 {
+        font-size:32px;
+    }
+    header h2 {
+        font-size:20px;
+    }
+}
+/*Desktop/Computador*/
+@media screen and (min-width: 1024px) {
+    header img {
+        content: url('../img/topoPC.jpg');
+    }
+    header h1 {
+        font-size:50px;
+    }
+    header h2 {
+        font-size:24px;
+    }
+    .tecnologias {
+        flex-direction: row;
+    }
+    .compras {
+        flex-direction: row-reverse;
+    }
+    main section > div {
+        padding-top:45px;
+    }
+    .tecnologias p, .compras p {
+        font-size: 16px;
+    }   
+    .container {
+        width:1200px;
+        margin:auto;
+    } 
+}

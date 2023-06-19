@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.celulares {
+    display: flex;
+    flex-direction: row;
+    width:1200px;
+    margin:auto;
+}
+.celulares div {
+    width:100%;  
+    text-align: center;
+    padding: 50px;
+}
+.celulares p {
+    text-align: justify; 
+}
+.celulares h2 {
+    margin: 20px 0px;
+}
+.italico {
+    font-style: italic;
+}
+.celulares img {
+    width: 200px;
+}
+.mentor div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    width: 1200px;
+    margin:auto;
+}
+.produtos {
+    display: flex;
+    flex-direction: row;
+    width:1200px;
+    margin:auto;
+}
+.produtos div {
+    text-align: center;
+    padding:50px;
+}
+.produtos p {
+    text-align: justify;
+}
+.produtos img {
+    width: 200px;
+}

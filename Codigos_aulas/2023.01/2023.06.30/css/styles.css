@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.plataforma, .infoBox {
+    background-color: rgb(204, 201, 201);
+}
+.imagemEmpresa {
+    background-color: black;
+}
+.imagemEmpresa img {
+    width: 100%;
+    height: 300px;
+}
+button {
+    background-color: black;
+    color:white;
+    padding: 10px 25px;
+    border:none;
+    border-radius: 5px;
+    border:1px solid black;
+    transition: all 0.3s;
+}
+button:hover {
+    background-color: rgb(161, 161, 161);
+    border:1px solid black;
+    cursor: pointer;
+}
+button:active {
+    transform: scale(0.9);
+    /* transform: rotate(360deg); */
+    /* transform:translateX(405px); */
+}
+.plataforma {
+    padding: 40px;
+}
+p {
+    /* border:1px solid black; */
+    /* padding: 20px 0px; */
+    margin: 20px 0px;
+}
+.produtos, .informacoes, .final {
+    display: flex; /*Tranformei a section num container*/
+    flex-direction: row;
+}
+.produtos div, .informacoes div, .final div {
+    padding: 40px;
+}
+.produtos img {
+    width: 100%;
+}
+.final img {
+    border-radius: 20px;
+}
+.moldura {
+    width: 1200px;
+    margin:auto;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}

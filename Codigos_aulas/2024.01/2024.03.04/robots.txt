@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Bingbot
+Allow: /index.html

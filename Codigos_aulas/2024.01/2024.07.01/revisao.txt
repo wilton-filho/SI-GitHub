@@ -1,0 +1,22 @@
+main: conteúdo principal (layout)
+h1: título principal
+b: negrito
+u: sublinhado
+p: parágrafo
+header: cabeçalho do layout da página
+a: link
+section: criar caixas na página
+footer: rodapé da página
+nav: menu de navegação
+article: criar artigos dentro de seções
+h2: subtítulo
+ul: listas não ordenadas
+li: item da lista
+i: itálico
+link: importação de css
+
+
+
+
+
+

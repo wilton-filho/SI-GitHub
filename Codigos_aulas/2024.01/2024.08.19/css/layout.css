@@ -1,0 +1,75 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family: arial;
+}
+nav ul {
+    background-color: rgb(8, 8, 97);
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    display:inline-block;
+}
+nav a:link, nav a:visited {
+    color:white;
+    display: inline-block;
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+header img {
+    width: 100%;
+}
+.secaoCinza {
+    background-color: rgb(226, 226, 226);
+}
+.secaoBranco {
+    background-color: white;
+}
+body {
+    background-color: black;
+}
+section {
+    width:1200px;
+    margin:auto;
+    padding: 50px;
+}
+
+section h1, section h2, section p {
+    margin: 20px 0px; /* 20px-> margem top e bottom */
+}
+section p {
+    line-height: 1.5em;
+}
+section button {
+    color:white;
+    padding:10px 20px;
+    border: none;
+    border-radius: 5px; /* Arredondamento das quinas */
+}
+
+section button:hover {
+    background-color: orangered;
+    cursor: pointer; /* Altera o cursor do mouse para a mãozinha */
+}
+.btnPreto {
+    background-color: black;
+}
+.btnAzul {
+    background-color: rgb(16, 16, 147);
+}
+.armario {
+    display: flex;
+    flex-direction: row;
+}
+.caixaOrg {
+    width: 100%;
+    text-align: center;
+}
+.uberCaracteristicas img {
+    width: 80%;
+}

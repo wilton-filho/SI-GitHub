@@ -1,0 +1,10 @@
+.caixaOrg {
+    border: 10px solid black;
+    width: 100%;
+    text-align: center;
+}
+.armario {
+    border: 10px solid pink;
+    display:flex;
+    flex-direction: row;
+}
